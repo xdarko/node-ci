@@ -1,7 +1,6 @@
-require('../models/User');
+jest.setTimeout(30000);
 
-// Set waiting time for async tests:
-jest.setTimeout(180000);
+require('../models/User');
 
 const mongoose = require('mongoose');
 const keys = require('../config/keys');
